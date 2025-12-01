@@ -11,7 +11,7 @@ from web_app.routes.rps_routes_routes import rps_routes
 def create_app():
     app = Flask(__name__)
     app.register_blueprint(home_routes)
-        app.register_blueprint(rps_routes_routes)
+    app.register_blueprint(rps_routes_routes)
     #app.register_blueprint(book_routes)
     #app.register_blueprint(weather_routes)
     return app
